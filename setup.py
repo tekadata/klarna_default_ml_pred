@@ -7,7 +7,7 @@ requirements = [x.strip() for x in content if 'git+' not in x]
 
 setup(name='klarna_default_ml_pred',
       version="1.0",
-      description="Project Description",
+      description="ML Case Study datapoints feault prediction",
       packages=find_packages(),
       install_requires=requirements,
       test_suite='tests',
